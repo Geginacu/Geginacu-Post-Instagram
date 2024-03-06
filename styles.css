@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: black
+}
+.Post {
+    background: white;
+}
+.area {
+    width: 350px;
+    margin: auto;
+}
+.medium img {
+    width: 100%;
+}
+p {
+    font-size: 12px;
+}
+.Post h5, p {
+    padding: 10px;
+    margin: 0;
+}
+.top {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.Post .top div:first-child {
+    display: inline-block;
+    width: 10%;
+}
+.name {
+    display: inline-block;
+    width: 80%;
+}
+.Post .top div:last-child {
+    display: inline-block;
+    width: 10%;
+}
+.low {
+    margin: 0;
+}
+.icons {
+    display: flex;
+    margin: 10px;
+}
+.left {
+    margin-right: 150px;
+}
+.right {
+    margin-left: 100px;
+}
